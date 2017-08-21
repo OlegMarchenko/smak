@@ -30,6 +30,7 @@
     background: $brand-color;
     top: 50%;
     right: 0;
+    transform: translateY(-50%);
   }
   a {
     color: #fff;
@@ -38,6 +39,16 @@
     &:hover {
       color: $brand-color;
     }
+  }
+  &:last-child::before {
+    content: none;
+  }
+}
+
+.nav-item-inverse {
+  padding: 60px 0;
+  a {
+    color: #515151;
   }
 }
 

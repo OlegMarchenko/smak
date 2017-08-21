@@ -5,6 +5,7 @@
   padding: 15px 50px;
   display: inline-block;
   border: 2px solid transparent;
+  border-radius: inherit;
   &:hover {
     color: $brand-color;
     background-color: transparent;
@@ -16,7 +17,7 @@
   font-size: 0;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 2px;
   transform: translateX(-50%);
   a {
     width: 60px;

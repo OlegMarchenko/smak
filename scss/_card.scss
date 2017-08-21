@@ -1,0 +1,86 @@
+.card-header {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom:20px;
+}
+.card-icon {
+  width: 106px;
+  height: 106px;
+  background-color: $brand-color;
+  border-radius: 50%;
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+  .card-title {
+    font-family: 'oswaldbold';
+    padding-bottom: 8px;
+  }
+  .card-description {
+    color: #707070;
+    font-family: 'oswaldlight';
+  }
+}
+
+.card {
+  padding-top: 60px;
+  border: none;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  a {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    transition: .3s all;
+  }
+  &.active {
+    background-color: #fff;
+    border: 1px solid #000;
+    a {
+      color: $brand-color;
+    }
+  }
+  svg {
+    width: 1em;
+    height: 1em;
+    font-size: 40px;
+    fill: currentcolor;
+  }
+  &:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    a {
+      color: $brand-color;
+    }
+  }
+}
+
+.card-inverse {
+  background-color: transparent;
+  .card-icon {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+  a {
+    color: $brand-color;
+  }
+  .card-body {
+    .card-title {
+      color: #fff;
+    }
+    .card-description {
+      color: #fff;
+    }
+  }
+}
+
