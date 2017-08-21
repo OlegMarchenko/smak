@@ -1,0 +1,70 @@
+.section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  span {
+    color: #515151;
+    font-family: 'oswald_regularregular';
+  }
+  .title {
+    font-size: 30px;
+    font-family: 'oswaldbold';
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 170px;
+      height: 3px;
+      background: $brand-color;
+      bottom: 0;
+      left: 50%;
+    }
+  }
+}
+.main-title {
+  font-family: 'oswaldbold';
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.tagline {
+  height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.holder-tagline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #131316;
+    z-index: -1;
+    opacity: .3;
+  }
+}
+
+.tag-holder {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

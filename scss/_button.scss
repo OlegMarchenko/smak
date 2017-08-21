@@ -1,0 +1,40 @@
+.btn {
+  background-color: $brand-color;
+  color: #000;
+  font-family: 'oswaldbold';
+  padding: 15px 50px;
+  display: inline-block;
+  border: 2px solid transparent;
+  &:hover {
+    color: $brand-color;
+    background-color: transparent;
+    border: 2px solid $brand-color;
+  }
+}
+
+.anchor {
+  font-size: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: $brand-color;
+    position: relative;
+    transition: .2s;
+    &::before {
+      position: absolute;
+      content: url("../images/arrow-down.svg");
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 20px;
+    }
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
