@@ -123,3 +123,33 @@
     top: 0;
   }
 }
+
+.section-portfolio {
+  .description-inverse {
+    padding-bottom: 55px;
+  }
+}
+
+.section-numbers {
+  .value {
+    font-family: 'oswaldbold';
+  }
+  .description {
+    font-family: 'oswald_regularregular';
+  }
+}
+
+.section-who-we-are {
+  .card-body .card-title {
+    font-family: 'oswald_regularregular';
+  }
+  .card-icon {
+    a {
+      width: 35px;
+      height: 35px;
+    }
+    svg {
+      font-size: 35px;
+    }
+  }
+}

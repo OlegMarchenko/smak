@@ -1,5 +1,4 @@
 .btn {
-  background-color: $brand-color;
   color: #000;
   font-family: 'oswaldbold';
   padding: 15px 50px;
@@ -36,6 +35,16 @@
     }
     &:hover {
       opacity: .8;
+    }
+  }
+}
+
+.section-portfolio {
+  .btn {
+    color: #fff;
+    &:hover {
+      color: #000;
+      background: #fff;
     }
   }
 }

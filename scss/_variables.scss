@@ -1,0 +1,42 @@
+$theme-colors: (
+        primary: #ffe600,
+        secondary: $gray-600,
+        success: $green,
+        info: $cyan,
+        warning: $yellow,
+        danger: $red,
+        light: #515151,
+        dark: $gray-800
+);
+
+$font-family-base: 'oswaldlight', $font-family-sans-serif;
+
+$line-height-base: 1.56;
+
+$theme-colors: (
+        primary: #ffe600,
+        secondary: $gray-600,
+        success: $green,
+        info: $cyan,
+        warning: $yellow,
+        danger: $red,
+        light: #515151,
+        dark: #12191d
+);
+
+$text-muted: #fff;
+
+$spacer: 20px;
+$spacers: (
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: $spacer,
+        4: ($spacer * 1.5),
+        5: ($spacer * 3)
+);
+
+$display1-size: 40px ;
+$display2-size: 5.5rem ;
+$display3-size: 4.5rem ;
+$display4-size: 3.5rem ;

@@ -49,54 +49,7 @@
   padding: 60px 0;
   a {
     color: #515151;
+    font-family: 'oswald_regularregular';
   }
 }
 
-
-
-
-
-
-
-
-
-
-//
-//.navbar-holder {
-//  display: flex;
-//  justify-content: space-between;
-//  align-items: center;
-//}
-//
-//.navbar-nav {
-//  margin-right: -27px;
-//  li {
-//    display: inline-block;
-//    padding: 0 27px;
-//    position: relative;
-//    &:before {
-//      position: absolute;
-//      content: '';
-//      width: 5px;
-//      height: 5px;
-//      background-color: $brand-color;
-//      right: 0;
-//      bottom: 50%;
-//      transform: translate(-50%);
-//    }
-//    &:last-child::before {
-//      content: none;
-//    }
-//  }
-//  a {
-//    font-size: 14px;
-//    font-family: 'oswaldbold';
-//    color: #fff;
-//    display: block;
-//    transition: .2s all;
-//    &.active,
-//    &:hover {
-//      color: $brand-color;
-//    }
-//  }
-//}
