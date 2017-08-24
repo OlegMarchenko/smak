@@ -1,0 +1,24 @@
+::-webkit-input-placeholder {color:#fff !Important;}
+::-moz-placeholder          {color:#fff !Important;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff !Important;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff !Important;}
+
+.form-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.form-row > .col, .form-row > [class*="col-"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form-group {
+  padding: 0 15px;
+  width: 100%;
+  textarea {
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+  }
+}

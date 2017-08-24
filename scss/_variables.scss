@@ -1,12 +1,12 @@
 $theme-colors: (
         primary: #ffe600,
         secondary: $gray-600,
-        success: $green,
+        success: #fbfbfbf,
         info: $cyan,
         warning: $yellow,
         danger: $red,
         light: #515151,
-        dark: $gray-800
+        dark: #12191d
 );
 
 $font-family-base: 'oswaldlight', $font-family-sans-serif;
@@ -16,12 +16,31 @@ $line-height-base: 1.56;
 $theme-colors: (
         primary: #ffe600,
         secondary: $gray-600,
-        success: $green,
+        success: #fbfbfb,
         info: $cyan,
         warning: $yellow,
         danger: $red,
         light: #515151,
         dark: #12191d
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1170px
 );
 
 $text-muted: #fff;

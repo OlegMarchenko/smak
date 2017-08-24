@@ -1,0 +1,37 @@
+.footer {
+  background: #0a0a0f;
+  padding-top: 25px;
+  position: relative;
+  .copyright {
+    a {
+      color: $brand-color;
+    }
+  }
+}
+
+
+.social-links {
+  margin: 0 -12px;
+  li {
+    display: inline-block;
+    margin: 0 12px;
+  }
+  a {
+    display: block;
+    color: #fff;
+    transition: .2s;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+
+.anchor-up {
+  display: flex;
+  justify-content: center;
+  a {
+    width: 60px;
+    height: 60px;
+    background: url("../images/arrows-up.svg") 50% 50% no-repeat $brand-color;
+  }
+}

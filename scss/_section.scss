@@ -153,3 +153,68 @@
     }
   }
 }
+
+.section-our-team {
+  .section-heading .title {
+    color: #000;
+  }
+}
+
+.section-about-workers {
+  background: #131316;
+}
+
+.section-skills {
+  background: #12191d;
+}
+
+.section-clients {
+  .description-inverse {
+    margin-bottom: 80px;
+  }
+}
+
+.section-blockquote {
+  background: #0b1217;
+  .blockquote {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'oswald_regularregular';
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 170px;
+      height: 2px;
+      background: $brand-color;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .author {
+    color: #fff;
+    font-family: 'oswald_regularregular';
+  }
+  .section-heading {
+    max-width: 545px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card-inverse {
+  .contact-link {
+    font-size: 20px;
+    color: #515151;
+  }
+}
+
+.section-form {
+  background: #0b1217;
+}

@@ -88,3 +88,121 @@
   height: 70px;
 }
 
+.card-image {
+  height: 250px;
+  background: #11343a;
+}
+
+.card-team {
+  border-bottom: 2px solid #dfe4e5;
+  position: relative;
+  &::before {
+    transition: .2s;
+    position: absolute;
+    content: url("../images/arrow-up.svg");
+    height: 58px;
+    left: 50%;
+    bottom: -73px;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+  }
+  &:hover:before {
+    opacity: 1;
+  }
+  .card-title {
+    text-transform: uppercase;
+    font-family: 'oswald_regularregular';
+  }
+  .card-text {
+    text-transform: uppercase;
+    color: #707070;
+    font-family: 'oswald_regularregular';
+  }
+}
+
+.worker-active {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: url("../images/arrow-up.svg");
+    height: 58px;
+    left: 50%;
+    bottom: -73px;
+    transform: translate(-50%, 50%);
+  }
+}
+
+
+.card-worker {
+  max-width: 770px;
+  width: 100%;
+  .title {
+    font-size: 20px;
+    font-family: 'oswald_regularregular';
+  }
+  .description {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: url("../images/x-icon.svg");
+      width: 13px;
+      height: 13px;
+      cursor: pointer;
+      right: 4px;
+      top: -39px;
+    }
+  }
+}
+
+.socials {
+  ul {
+    margin-left: -11px;
+  }
+  a {
+    width: 37px;
+    height: 37px;
+    color: #fff;
+    transition: .2s;
+    border: 1px solid #fff;
+    &:hover {
+      color: $brand-color;
+      border: 1px solid $brand-color;
+    }
+  }
+}
+
+.circle {
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  border: 5px solid $brand-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .value {
+    color: $brand-color;
+    font-size: 35px;
+    line-height: 0;
+  }
+}
+.circle-description {
+  font-family: 'oswald_regularregular';
+  color: $brand-color;
+  font-size: 20px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-title-inverse {
+  font-size: 20px;
+  font-family:'oswald_regularregular';
+  color: #131316;
+}
+
+
+
