@@ -218,3 +218,63 @@
 .section-form {
   background: #0b1217;
 }
+
+
+//section google-gallery
+.picflex .resulttitle {
+  border-bottom: none !important;
+}
+
+.picflex .detailview {
+  background: #fff;
+}
+
+.picflex .resultitem.open:after {
+  content: none;
+}
+
+.resulttitle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.picflex .detailview .resulttitle .controllers a {
+  background-color: transparent !important;
+  color: $brand-color !important;
+}
+
+.description-image {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title {
+    font-size: 25px;
+    color: #515151;
+    font-family: 'oswald_regularregular';
+    padding-bottom: 10px;
+  }
+  .description {
+    color: #707070;
+    padding-bottom: 20px;
+    max-width: 363px;
+  }
+  button {
+    color: #fff;
+  }
+}
+
+.picflex .detailview .thumbMeta .metacolmn {
+  column-count: inherit;
+}
+
+.picflex .detailview .resulttitle .controllers {
+  height: 45px;
+  position: relative;
+  a {
+    position: absolute;
+    right: 0;
+    top: 58px;
+    z-index: 100;
+  }
+}
