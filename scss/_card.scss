@@ -171,21 +171,6 @@
   }
 }
 
-.circle {
-  width: 142px;
-  height: 142px;
-  border-radius: 50%;
-  border: 5px solid $brand-color;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .value {
-    color: $brand-color;
-    font-size: 35px;
-    line-height: 0;
-  }
-}
 .circle-description {
   font-family: 'oswald_regularregular';
   color: $brand-color;
@@ -204,5 +189,22 @@
   color: #131316;
 }
 
+.circle {
+  position: relative;
+}
+.circle strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 35px;
+  color: $brand-color;
+  font-family: 'oswaldlight';
+  transform: translate(-50%, -50%);
+  i {
+    font-style: normal;
+  }
+}
 
 
