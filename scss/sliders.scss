@@ -1,0 +1,63 @@
+
+
+.section-companies .slick-prev,
+.section-companies .slick-next {
+  width: 31px;
+  height: 31px;
+  background: $brand-color;
+  bottom: -100px;
+  top: inherit;
+}
+
+.section-companies .slick-prev:before,
+.section-companies .slick-next:before {
+  width: 31px;
+  height: 31px;
+}
+
+.section-companies .slick-slide img {
+  margin: 0 auto;
+}
+
+.section-companies .slick-track {
+  display: flex;
+}
+
+.section-companies .slick-prev {
+  left: calc(45% + 10px);
+
+}
+.section-companies .slick-next {
+  right: calc(45% + 10px);
+}
+
+.sl-slide {
+  margin-bottom: 90px;
+}
+
+.author {
+  text-align: center;
+}
+
+//second slider
+
+.sl-slide-2 .slick-dots li {
+  width: 5px;
+  height: 5px;
+  margin: 0 8px;
+  button {
+    width: 5px;
+    height: 5px;
+    background: $brand-color;
+    padding: 0;
+    &::before {
+      width: 5px;
+      height: 5px;
+      content: '';
+    }
+  }
+}
+
+.sl-slide-2 .slick-dots li.slick-active button {
+  background: #fff;
+}
