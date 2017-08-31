@@ -183,6 +183,9 @@
     padding-bottom: 20px;
     text-align: center;
     position: relative;
+    max-width: 545px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     &::before {
       position: absolute;
       content: '';
