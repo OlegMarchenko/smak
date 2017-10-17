@@ -89,7 +89,7 @@ $(document).ready(function () {
         }
     });
 
-    function isScrolledIntoView(elem) {
+        function isScrolledIntoView(elem) {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
 
@@ -109,7 +109,7 @@ $(document).ready(function () {
 
     if($('.sl-slide-2').length) {
         $('.sl-slide-2').slick({
-            slidesToShow: 1,
+            slidesToShow: 3,
             dots:true,
             arrows: false,
             slidesToScroll: 1
